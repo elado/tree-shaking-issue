@@ -12,5 +12,5 @@ Comment `Qux.displayName` line in [`pkg1/src/Qux.js`](pkg1/src/Qux.js) and Qux w
 To iterate quickly on changes:
 
 ```
-pushd ../pkg1 && yarn build && popd && yarn build && code app1/dist/main.js
+pushd pkg1 && yarn build && popd && pushd app1 && yarn build && code dist/main.js && popd
 ```
