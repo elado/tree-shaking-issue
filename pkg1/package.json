@@ -1,0 +1,14 @@
+{
+  "name": "pkg1",
+  "version": "1.0.0",
+  "main": "dist",
+  "module": "dist",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "rollup": "^1.25.2"
+  },
+  "scripts": {
+    "build": "yarn rollup -c"
+  }
+}

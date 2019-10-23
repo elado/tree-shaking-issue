@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^4.41.2"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "postbuild": "prettier dist/main.js --write"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  }
+}
