@@ -6,7 +6,11 @@
   "license": "MIT",
   "sideEffects": false,
   "dependencies": {
-    "rollup": "^1.25.2"
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.25.2",
+    "rollup-plugin-babel": "^4.3.3"
   },
   "scripts": {
     "build": "yarn rollup -c"
