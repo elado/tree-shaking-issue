@@ -5,6 +5,7 @@
   },
   "sideEffects": false,
   "scripts": {
+    "build:dev": "webpack --mode development",
     "build": "webpack --mode production",
     "postbuild": "prettier dist/main.js --write"
   },
